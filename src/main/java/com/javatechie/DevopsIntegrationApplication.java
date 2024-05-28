@@ -12,7 +12,7 @@ public class DevopsIntegrationApplication {
 
     @GetMapping("/message")
     public String message() {
-        return "welcome to devops automation";
+        return "welcome to devops automation hihi";
     }
 
     @GetMapping("/add")

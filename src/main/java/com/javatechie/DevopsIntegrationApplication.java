@@ -16,10 +16,15 @@ public class DevopsIntegrationApplication {
     }
 
     @GetMapping("/add")
-    public String add(@RequestParam int x, @RequestParam int y) {
+    public String addtest(@RequestParam int x, @RequestParam int y) {
         System.out.println("test");
         return String.valueOf(x + y);
     }
+	@GetMapping
+	public Integer add(int x, int y){
+		System.out.println("test");
+		return x + y;
+	}
 
     public static void main(String[] args) {
         SpringApplication.run(DevopsIntegrationApplication.class, args);

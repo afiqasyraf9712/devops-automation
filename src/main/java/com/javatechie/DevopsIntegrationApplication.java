@@ -16,6 +16,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String add(x, y){
+		System.out.println("test");
 		return x + y;
 	}
 

@@ -14,6 +14,11 @@ public class DevopsIntegrationApplication {
 		return "welcome to devops automation";
 	}
 
+	@GetMapping
+	public String add(x, y){
+		return x + y;
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DevopsIntegrationApplication.class, args);
 	}

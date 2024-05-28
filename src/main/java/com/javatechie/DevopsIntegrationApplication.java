@@ -17,7 +17,7 @@ public class DevopsIntegrationApplication {
 
     @GetMapping("/add")
     public String addtest(@RequestParam int x, @RequestParam int y) {
-        System.out.println("test");
+        System.out.println("testing");
         return String.valueOf(x + y);
     }
 	@GetMapping
